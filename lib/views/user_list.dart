@@ -12,8 +12,6 @@ class UserList extends StateLessWidget {
           ),
           body: ListeView.builder(
             itemCount: users.length,
-            itemBuilder: (ctx, i) => Text(users.values.elementAt(i).name)
-           ),
-        );
+            itemBuilder: (ctx, i) => Text(users.values.elementAt(i))));
     }
 }
